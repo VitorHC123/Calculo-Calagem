@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity_TelaConta3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:text="Calculo Da Calagem"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Dados Da Análise"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtK"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="K (Potássio)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtCA"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Ca (Cálcio)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtMG"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Mg (Magnésio)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtNA"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="NA (Sódio)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtH"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="H (Hidrogênio) + AL (Alumínio)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtV2"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="V2 (Em porcetagem %)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtPRNT"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="PRNT (Poder de Neutralização)"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btMmol"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/verdeTcc"
+            android:text="Calcular Calagem"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Resultado:"
+            android:textColorHint="@color/verdeLetraTcc"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</ScrollView>
