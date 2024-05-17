@@ -1,4 +1,4 @@
-# CalculoCalagem
+# Calculo da Calagem
 TCC realizado no ano de 2022 para a conclusão do curso de Informatica para Internet pela ETEC.
 
 Com o pouco estudo que tive sobre Java e Android Studio,
