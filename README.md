@@ -6,4 +6,4 @@ desenvolvi uma aplicação que atende às necessidades do cálculo da calagem no
 
 Para ir até as telas programadas da aplicação é necessario abrir: TCC/app/src/main/javabretectcc
 
-feito por: João Vitor de Oliveira dos Santos
+feito por: João Vitor de Oliveira dos Santos e Vitor Hugo Correia
