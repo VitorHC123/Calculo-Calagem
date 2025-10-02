@@ -25,7 +25,6 @@ Permitir que agricultores e técnicos possam realizar cálculos de calagem de ma
 
 Para acessar as telas programadas da aplicação, abra:
 
----
 
 Principais classes:
 
